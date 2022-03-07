@@ -52,7 +52,7 @@ body, p {
 }
 
 .p-large {
-	font: 400 1.125rem/1.75rem "Open Sans", sans-serif;
+	font: 400 1.5rem/1.75rem "Open Sans", sans-serif;
 }
 
 .p-small {
@@ -802,6 +802,18 @@ input[type='checkbox'] {
 	line-height: 3rem;
 }
 
+.header h2 {
+	margin-bottom: 1rem;
+	color: #fff;
+	font-size: 2.5rem;
+	line-height: 3rem;
+}
+
+.header h4 {
+	margin-bottom: 1rem;
+	color: #f3f7fd;
+}
+
 .header .p-large {
 	margin-bottom: 2rem;
 	color: #f3f7fd;
@@ -851,8 +863,9 @@ input[type='checkbox'] {
 }
 
 
+
 /***************************/
-/*     06. Description     */
+/*     06. Technology Advance     */
 /***************************/
 .cards-1 {
 	padding-top: 3.25rem;
@@ -871,6 +884,7 @@ input[type='checkbox'] {
 	margin-left: auto;
 	padding: 0;
 	border: none;
+
 }
 
 .cards-1 .card-image {
@@ -895,7 +909,6 @@ input[type='checkbox'] {
 .tabs {
 	padding-top: 8rem;
 	padding-bottom: 8.125rem;
-	background-color: #f3f7fd;
 }
 
 .tabs .h2-heading,
