@@ -1083,12 +1083,14 @@ input[type='checkbox'] {
 /*     09. Details     */
 /***********************/
 .basic-1 {
-	padding-top: 7.5rem;
+	padding-top: 6rem;
 	padding-bottom: 8rem;
+	background-color: #86929b;
 }
 
 .basic-1 .text-container {
 	margin-bottom: 3.75rem;
+	background-color: #c4d8dc;
 }
 
 .basic-1 .list-unstyled {
@@ -1369,10 +1371,15 @@ input[type='checkbox'] {
 	padding: 3.5rem 1rem 2.5rem 1rem;
 	border-radius: 0.5rem;
 	background-color: #f3f7fd;
+	text-align: center;
 }
 
 .form h2 {
-	margin-bottom: 2.75rem;
+	margin-bottom: 1.2rem;
+	text-align: center;
+}
+.form p {
+	margin-bottom: 1.75rem;
 	text-align: center;
 }
 
@@ -2157,3 +2164,4 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width width 1200px */
+
