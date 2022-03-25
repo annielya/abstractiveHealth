@@ -48,7 +48,7 @@ html {
 
 body, p {
 	color: #555;
-	font: 400 1rem/1.625rem "Open Sans", sans-serif;;
+	font: 400 1rem/1.625rem "Open Sans", sans-serif;
 }
 
 .p-large {
@@ -666,7 +666,7 @@ input[type='checkbox'] {
 
 .navbar-custom .navbar-brand.logo-text {
 	font: 700 2rem/1.5rem "Open Sans", sans-serif;
-	color: #fff;;
+	color: #fff;
 	text-decoration: none;
 }
 
