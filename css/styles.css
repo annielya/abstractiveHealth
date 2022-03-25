@@ -1733,12 +1733,16 @@ a:hover.back-to-top {
 		padding: 2.25rem 1.75rem 1.25rem 1.75rem;
 	}
 	/* end of sign up and log in pages */
+	iframe {
+		display: block;
+	}
 }
 /* end of min-width width 768px */
 
 
 /* Min-width width 992px */
 @media (min-width: 992px) {
+
 	
 	/* Navigation */
 	.navbar-custom {
@@ -2163,4 +2167,12 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width width 1200px */
+
+@media (max-width : 800px) {
+	iframe {
+		height: 200px;
+		width: 300px;
+	}
+}
+
 
