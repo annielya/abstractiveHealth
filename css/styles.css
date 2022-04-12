@@ -48,56 +48,57 @@ html {
 
 body, p {
 	color: #555;
-	font: 400 1rem/1.625rem "Open Sans", sans-serif;
+	font: 400 1rem/1.625rem "Lato", sans-serif;
 }
 
 .p-large {
-	font: 400 1.5rem/1.75rem "Open Sans", sans-serif;
+	font: 400 1.5rem/1.75rem "Lato", sans-serif;
 }
 
 .p-small {
-	font: 400 0.875rem/1.5rem "Open Sans", sans-serif;
+	font: 400 0.875rem/1.5rem "Lato", sans-serif;
 }
 
 h1 {
 	color: #333;
-	font: 700 2.5rem/3.125rem "Open Sans", sans-serif;
+	font: 700 2.5rem/3.125rem "Lato", sans-serif;
 	letter-spacing: -0.2px;
 }
 
 h2 {
 	color: #333;
-	font: 700 2rem/2.625rem "Open Sans", sans-serif;
+	font: 700 2.5rem/3.125rem "Lato", sans-serif;
 	letter-spacing: -0.2px;
 }
 
 h3 {
 	color: #333;
-	font: 700 1.625rem/2.125rem "Open Sans", sans-serif;
+	font: 700 1.625rem/2.125rem "Lato", sans-serif;
+	
 	letter-spacing: -0.2px;
 }
 
 h4 {
 	color: #333;
-	font: 700 1.375rem/1.75rem "Open Sans", sans-serif;
+	font: 700 1.375rem/1.75rem "Lato", sans-serif;
 	letter-spacing: -0.1px;
 }
 
 h5 {
 	color: #333;
-	font: 700 1.125rem/1.5rem "Open Sans", sans-serif;
+	font: 700 1.125rem/1.5rem "Lato", sans-serif;
 	letter-spacing: -0.1px;
 }
 
 h6 {
 	color: #333;
-	font: 700 1rem/1.375rem "Open Sans", sans-serif;
+	font: 700 1rem/1.375rem "Lato", sans-serif;
 	letter-spacing: -0.1px;
 }
 
 .above-heading {
 	color: #5f4dee;
-	font: 700 1.075rem/0.875rem "Open Sans", sans-serif;
+	font: 700 1.075rem/0.875rem "Lato", sans-serif;
 	text-align: center;
 	margin-bottom: 1rem;
 }
@@ -799,7 +800,7 @@ input[type='checkbox'] {
 
 .header h1 {
 	margin-bottom: 1rem;
-	color: #fff;
+	color: black;
 	font-size: 2.5rem;
 	line-height: 3rem;
 }
@@ -818,7 +819,7 @@ input[type='checkbox'] {
 
 .header .p-large {
 	margin-bottom: 2rem;
-	color: #f3f7fd;
+	color: black;
 }
 
 .header .btn-solid-lg {
@@ -851,6 +852,60 @@ input[type='checkbox'] {
 	height: 2.25rem;
 }
 
+#videowrapper{  
+    position: relative;
+    overflow: hidden;
+} 
+
+#fullScreenDiv{
+    min-height: 100%; 
+    height: 100vh;
+    width: 100vw;
+    padding:0;
+    margin: 0;
+    background-color: gray;
+    position: relative;
+}
+
+#video{    
+    width: 100vw; 
+    height: auto;
+    margin: auto;
+    display: block;
+}
+@media (min-aspect-ratio: 16/9) {
+  #video{
+    width: 100vw; 
+    height:auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  #video {
+    height: 100vh; 
+    width:auto;
+    margin-left: 50vw;
+    transform: translate(-50%);
+  }
+}
+
+#videoMessage{
+    width: 100%; 
+    height: 100%;
+    position: absolute; 
+    top: 0; 
+	left: 0;
+	margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.styling *{ margin:0.2em; text-align:center;color:#f3f7fd;}
+.styling h1{font-size: 3em; text-shadow: 2px 2px 2px #000000; }
+.styling h2{font-size: 1.8em;}
+.styling h3{font-size: 1.2em;}
 
 /*************************/
 /*     05. Customers     */
@@ -890,7 +945,7 @@ input[type='checkbox'] {
 }
 
 .cards-1 .card-image {
-	max-width: 12rem;
+	max-width: 20rem; 
 	margin-right: auto;
 	margin-bottom: 2rem;
 	margin-left: auto;
@@ -902,6 +957,13 @@ input[type='checkbox'] {
 
 .cards-1 .card-body {
 	padding: 0;
+}
+.cards-1 .card-img{
+	max-width: 18rem;
+	border-radius: 25px;
+	margin-right: auto;
+	margin-bottom: 2rem;
+	margin-left: auto;
 }
 
 

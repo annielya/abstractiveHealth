@@ -19,11 +19,15 @@
 
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <!-- <link href="css/fontawesome-all.css" rel="stylesheet"> -->
     <link href="css/swiper.css" rel="stylesheet">
 	<link href="css/magnific-popup.css" rel="stylesheet">
-	<link href="css/styles.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/09da25a3a8.js" crossorigin="anonymous"></script>
 
 	<!-- Favicon  -->
     <link rel="icon" href="images/Favicon1.png">
@@ -79,57 +83,68 @@
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(Abstractive Health)</span></a>
+                        <a class="nav-link page-scroll" href="#videowrapper">HOME <span class="sr-only">(Abstractive Health)</span></a>
+                    </li>
+  
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#features">PRODUCT</a>
+                    </li>
+   
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#about">ABOUT US<span class="sr-only">(Abstractive Health)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#solution">SOLUTION <span class="sr-only">(Abstractive Health)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#features">FEATURES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#video">DEMO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#about">ABOUT<span class="sr-only">(Abstractive Health)</span></a>
+                        <a class="nav-link page-scroll" href="https://calendly.com/vincehartman">CONTACT US</a>
                     </li>
                 </ul>
-                <span class="nav-item">
+                <!-- <span class="nav-item">
                     <a class="btn-outline-sm" href="https://calendly.com/vincehartman">CONTACT US</a>
-                </span>
+                </span> -->
             </div>
         </div> <!-- end of container -->
     </nav> <!-- end of navbar -->
     <!-- end of navigation -->
 
 
+    <div id="videowrapper" class="videowrapper">
+        <div id="fullScreenDiv">
+           <video id="video" role="presentation" preload="auto" playsinline="" crossorigin="anonymous" loop="" muted="" autoplay="" class="blur">
+                <source src="images/video.mp4" type="video/mp4">
+            </video> 
+
+            <div id="videoMessage" class="styling"> 
+                <!-- <h1>Abstractive Health</h1> -->
+                <h2>We help doctors read and write clinical notes faster with an automated summary</h2>
+                
+            </div>   
+        </div>
+    </div>
     <!-- Header -->
-    <header id="header" class="header">
-        <div class="header-content">
+    <!-- <header id="header" class="header">
+        <div class="header-content"> 
+
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7 col-xl-8">
                         <div class="text-container">
                             <h1>Abstractive Health</h1>
                             <p class="p-large">We help doctors read and write clinical notes faster with an automated summary</p>
-                            <!-- <a class="btn-solid-lg page-scroll" href="https://calendly.com/vincehartman">Start Chatting</a> -->
-                        </div> <!-- end of text-container -->
-
-                    </div> <!-- end of col -->
+                        </div> 
+                    </div> 
                     <div class="col-lg-5 col-xl-4">
                         <div class="image-container">
                             <div class="img-wrapper">
                                 <img class="img-fluid" src="images/top_image.png" alt="alternative" style="
                                 width:300px;
                                 height:300px;">
-                            </div> <!-- end of img-wrapper -->
-                        </div> <!-- end of image-container -->
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of header-content -->
-    </header> <!-- end of header -->
-    <svg class="header-frame" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1920 310"><defs><style>.cls-1{fill:#261D4C;}</style></defs><title>header-frame</title><path class="cls-1" d="M0,283.054c22.75,12.98,53.1,15.2,70.635,14.808,92.115-2.077,238.3-79.9,354.895-79.938,59.97-.019,106.17,18.059,141.58,34,47.778,21.511,47.778,21.511,90,38.938,28.418,11.731,85.344,26.169,152.992,17.971,68.127-8.255,115.933-34.963,166.492-67.393,37.467-24.032,148.6-112.008,171.753-127.963,27.951-19.26,87.771-81.155,180.71-89.341,72.016-6.343,105.479,12.388,157.434,35.467,69.73,30.976,168.93,92.28,256.514,89.405,100.992-3.315,140.276-41.7,177-64.9V0.24H0V283.054Z"/></svg>
+                            </div> 
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+
+    </header>  -->
+    <!-- <svg class="header-frame" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1920 310"><defs><style>.cls-1{fill:#261D4C;}</style></defs><title>header-frame</title><path class="cls-1" d="M0,283.054c22.75,12.98,53.1,15.2,70.635,14.808,92.115-2.077,238.3-79.9,354.895-79.938,59.97-.019,106.17,18.059,141.58,34,47.778,21.511,47.778,21.511,90,38.938,28.418,11.731,85.344,26.169,152.992,17.971,68.127-8.255,115.933-34.963,166.492-67.393,37.467-24.032,148.6-112.008,171.753-127.963,27.951-19.26,87.771-81.155,180.71-89.341,72.016-6.343,105.479,12.388,157.434,35.467,69.73,30.976,168.93,92.28,256.514,89.405,100.992-3.315,140.276-41.7,177-64.9V0.24H0V283.054Z"/></svg> -->
     <!-- end of header -->
 
 
@@ -147,10 +162,11 @@
 
                     <!-- Card -->
                     <div class="card">
-                        <div class="card-image">
-                            <h4 class="card-title">Reducing Burnout</h4>
-                        </div>
+         
+                        <img class="card-img"  src="images/burnout.jpeg" alt="Abstractive Health"> 
+                
                         <div class="card-body">
+                            <h4 class="card-title">Reducing Burnout</h4>
                             <p class="p-small">Physicians spend 30 minutes to 2 hours manually writing a Discharge
 Summary. Through our machine learning tool, we cut that down to 5 minutes
 on average.</p>
@@ -160,10 +176,11 @@ on average.</p>
 
                     <!-- Card -->
                     <div class="card">
-                        <div class="card-image">
-                            <h4 class="card-title">Improving Revenue Reimbursement</h4>
-                        </div>
+   
+                        <img class="img-fluid card-img" src="images/revenue.jpg" alt="Abstractive Health"> 
+                 
                         <div class="card-body">
+                            <h4 class="card-title">Improving Revenue Reimbursement</h4>
                             <p class="p-small">Through our AI, we can help recommend supplementary medical diagnoses
 that are supported by the physicians’ previous medical documentation which
 helps improves hospital billing revenue. We can also provide an Emergency
@@ -176,10 +193,11 @@ admission.</p>
 
                     <!-- Card -->
                     <div class="card">
-                        <div class="card-image">
-                            <h4 class="card-title">Expert and Regulatory Compliance</h4>
-                        </div>
+                        <img class="img-fluid card-img" src="images/hipaa.jpeg" alt="Abstractive Health"> 
+
                         <div class="card-body">
+
+                            <h4 class="card-title">Expert and Regulatory Compliance</h4>
                             <p class="p-small">Given our exceptional healthcare experience, our dedicated team helps you
 improve your medical documentation for compliance with auditors and
 regulatory boards. Our tech is HIPAA compliant, and all data is encrypted
@@ -207,35 +225,37 @@ with role-based permission for accessing your healthcare data.</p>
 
                     <!-- Card -->
                     <div class="card" style="background-color:#f3f7fd">
-                        <div class="card-image">
-                            <img class="img-fluid" src="images/tech_adv1.png" alt="Abstractive Health">
+                        <div class="card-image">   
+                            <i class="fas fa-award fa-4x"></i> 
+                            <!-- <img class="img-fluid" src="images/tech_adv1.png" alt="Abstractive Health"> -->
                         </div>
+
                         <div class="card-body">
-                            <h4 class="card-title">Provisional patent for our novel machine learning
-NLP approach to summarize a medical chart</h4>
+                            <h5 class="card-title">Provisional patent for our novel machine learning
+NLP approach to summarize a medical chart</h5>
                         </div>
                     </div>
                     <!-- end of card -->
 
                     <!-- Card -->
                     <div class="card" style="background-color:#f3f7fd">
-                        <div class="card-image">
-                            <img class="img-fluid" src="images/tech_adv2.png" alt="Abstractive Health">
+                        <div class="card-image">    
+                            <i class="fas fa-database fa-4x"></i>
                         </div>
                         <div class="card-body">
-                            <h4 class="card-title">Our NLP model was built with a data partnership
-with Weill Cornell Medical College.</h4>
+                            <h5 class="card-title">Our NLP model was built with a data partnership
+with Weill Cornell Medical College.</h5>
                         </div>
                     </div>
                     <!-- end of card -->
 
                     <!-- Card -->
                     <div class="card" style="background-color:#f3f7fd">
-                        <div class="card-image">
-                            <img class="img-fluid" src="images/tech_adv3.png" alt="Abstractive Health">
+                        <div class="card-image">    
+                            <i class="fas fa-users-gear fa-4x"></i>
                         </div>
                         <div class="card-body">
-                            <h4 class="card-title">State-of-the-art technology in NLP</h4>
+                            <h5 class="card-title">State-of-the-art technology in NLP</h5>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -244,7 +264,7 @@ with Weill Cornell Medical College.</h4>
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </div> <!-- end of cards-1 -->
-    <!-- end of description -->
+
 
 
     <!-- Features -->
@@ -260,21 +280,6 @@ Dive deeper into what we do</div>
             </div> <!-- end of row -->
             <div class="row">
                 <div class="col-lg-12">
-
-                    <!-- Tabs Links -->
-                    <!-- <ul class="nav nav-tabs" id="argoTabs" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true"><i class="fas fa-list"></i>Display Extrinsic Word</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false"><i class="fas fa-envelope-open-text"></i>Campaigns</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="nav-tab-3" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false"><i class="fas fa-chart-bar"></i>Analytics</a>
-                        </li>
-                    </ul> -->
-                    <!-- end of tabs links -->
-
                     <!-- Tabs Content -->
                     <div class="tab-content" id="argoTabsContent">
 
@@ -342,7 +347,8 @@ the summary</div>
 
 
     <!-- Video -->
-    <div id="video" class="basic-2">
+
+    <div class="basic-2">
         <div class="container">
             <div class="row" style="margin-bottom: 2rem;">
                 <div class="col-lg-12">
@@ -350,12 +356,12 @@ the summary</div>
                     <h2 class="h2-heading">Schedule a Demo</h2>
                     <p class="p-heading">Take healthcare to the next level through automating a medical summary at your company, practice, or hospital.</p>
                     <a class="btn-solid-lg page-scroll" href="https://calendly.com/vincehartman">Start Scheduling</a>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
+                </div> 
+            </div> 
             <div class="row">
                 <div class="col-lg-12">
 
-                    <!-- Video Preview -->
+                   
                     <div class="image-container">
                         <div class="video-wrapper">
                             <a class="popup-youtube" href="https://www.youtube.com/watch?v=8DeklkaqQAU" data-effect="fadeIn">
@@ -364,19 +370,15 @@ the summary</div>
                                     <span></span>
                                 </span>
                             </a>
-                        </div> <!-- end of video-wrapper -->
-                        <!-- <div class="video-wrapper">
-                            <iframe style="height: 400px; width: 600px;" src="https://www.youtube.com/embed/8DeklkaqQAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>  -->
-                    </div> <!-- end of image-container -->
-                    <!-- end of video preview -->
-<!--
-                    <div class="p-heading">What better way to show off Tivo marketing automation saas app than presenting you some great situations of each module and tool available to users in a video</div>         -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-2 -->
-    <!-- end of video -->
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+
+
     <div id="about" class="basic-1" style="padding-bottom: 3rem;">
         <div class="container">
             <div class="row" >
@@ -417,7 +419,7 @@ the summary</div>
                 <div class="col-lg-6">
                     <div class="text-container">
                         <h1>Our Team</h1>
-                        <p>Our founder has ten years experience as a health consultant. The team is composed of Natural Language Processing experts and Software Developers from Cornell University and Design Experts from Parsons School of Design. </p>
+                        <p>Vince Hartman has ten years experience as a healthcare consultant. Our founding team is composed of Natural Language Processing experts and Software Developers from Cornell University and Product Experts from Parsons School of Design. </p>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
@@ -436,7 +438,7 @@ the summary</div>
                     <div >
                       <img class="img-fluid" src="images/image2.jpg" alt="Abstractive Health">
                       <div><b>Rita Giordana Pulpo</b></div>
-                      <p>Design Expert</p>
+                      <p>Product Expert</p>
                     </div>
                     <div >
                       <img class="img-fluid" src="images/image3.jpg" alt="Abstractive Health">
@@ -468,7 +470,7 @@ the summary</div>
                             <h2>Contact Us</h2>
                             <p>If you are Interested in our product, Please don't hesitate to contact us directly!</p>
                             <div style="margin-bottom: 1rem;"><a class="btn-solid-lg page-scroll" href="https://calendly.com/vincehartman">Start Chatting through Zoom</a></div>
-                            <a class="btn-solid-lg page-scroll" href="mailto:contact@abstractivehealth.com">Start Chatting through Email</a>
+                            <a class="btn-solid-lg page-scroll" href="mailto:vch6@cornell.edu">Start Chatting through Email</a>
 
                         </div> <!-- end of text-container -->
                     </div> <!-- end of col -->
@@ -521,14 +523,14 @@ the summary</div>
                             <!-- <li class="media">
                                 <i class="fas fa-map-marker-alt"></i>
                                 <div class="media-body">22 Innovative, San Francisco, CA 94043, US</div>
-                            </li> -->
+                            </li>  -->
                             <li class="media">
                                 <i class="fas fa-envelope"></i>
                                 <div class="media-body"><a class="white" href="mailto:vch6@cornell.edu">vch6@cornell.edu</a></div>
                             </li>
                         </ul>
                     </div>
-                </div> <!-- end of col -->
+                </div> 
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </div> <!-- end of footer -->
